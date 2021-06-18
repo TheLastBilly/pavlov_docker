@@ -2,7 +2,7 @@ version: "3"
 
 services:
     pavlov:
-        image: thelastbilly/pavlov
+        image: thelastbilly/pavlov:17062021
         container_name: pavlov
         volumes:
             - "./logs:/steam/pavlovserver/Pavlov/Saved/Logs"
