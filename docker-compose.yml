@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    pavlov:
+        image: thelastbilly/pavlov
+        container_name: pavlov
+        volumes:
+            - "./logs:/steam/pavlovserver/Pavlov/Saved/Logs"
+            - "./config:/steam/pavlovserver/Pavlov/Saved/Config"
+        environment: 
+            - UID=1000
+            - GID=1000
